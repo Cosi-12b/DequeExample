@@ -1,3 +1,4 @@
+package edu.brandeis.cosi12b.dequeexample;
 import java.util.*;
 
 public class DequeExample {
@@ -8,13 +9,13 @@ public class DequeExample {
     // example1();
     // example2();
     // example3();
- //    example4();
+    // example4();
     
     int val = postfixEvaluate("5 2 4 * + 7 -");
     System.out.println(val);
       
-//      int val = inFixEvaluate("12 * 3 + 4");
-//      System.out.println(val);
+    val = inFixEvaluate("12 * 3 + 4");
+    System.out.println(val);
   }
 
   public static void example1() {
